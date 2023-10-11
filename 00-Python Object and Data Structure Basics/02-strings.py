@@ -21,7 +21,13 @@ mystring = "fwegewrfca"
       mystring[4:6]
 
       mystring[::]
-      mystring[::4]
+      mystring[::3]
+      mystring[::2]
+      mystring[2:3:2]
+      mystring[::-1]
+      mystring[::-2]
+
+
 
 # the ':' says: "go up the character, but no include it
 # it works either from beginning to end, and end to beginning
